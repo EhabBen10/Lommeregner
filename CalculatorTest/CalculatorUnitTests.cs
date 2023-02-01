@@ -11,38 +11,52 @@ public class CalculatorUnitTests
         Calculator = new Calculator();
     }
 
-    [TestCase(2,2,4)]
-    [TestCase(2, 3, 5)]
-    [TestCase(-2, 3, 1)]
-    public void Add_Test(double a, double b, double resulte)
+    [TestCase(2,3)]
+    [TestCase(3, 4)]
+    public void Add_Test(double b, double resulte)
     {
 
-        Assert.That(Calculator.Add(a, b), Is.EqualTo(resulte));
+        Assert.That(Calculator.Add(b), Is.EqualTo(resulte));
     }
-    [TestCase(2, 1, 1)]
-    [TestCase(2, 3, -1)]
-    [TestCase(-2, 3, -5)]
-    public void Subtract_Test(double a, double b, double resulte)
+    [TestCase(1, 0)]
+    [TestCase(3, -2)]
+    public void Subtract_Test(double b, double resulte)
     {
 
-        Assert.That(Calculator.Subtract(a, b), Is.EqualTo(resulte));
+        Assert.That(Calculator.Subtract(b), Is.EqualTo(resulte));
     }
 
-    [TestCase(2, 2, 4)]
-    [TestCase(2, 3, 6)]
-    [TestCase(-2, 3, -6)]
-    public void Multiply_Test(double a, double b, double resulte)
+    [TestCase(2, 2)]
+    [TestCase(3, 3)]
+    [TestCase(1, 1)]
+    public void Multiply_Test(double b, double resulte)
     {
 
-        Assert.That(Calculator.Multiply(a, b), Is.EqualTo(resulte));
+        Assert.That(Calculator.Multiply(b), Is.EqualTo(resulte));
     }
-    [TestCase(2, 2, 4)]
-    [TestCase(2, 3, 8)]
-    [TestCase(-2, 3, -8)]
-    public void Power_Test(double a, double b, double resulte)
+    [TestCase(0, 1)]
+    [TestCase(1, 1)]
+    public void Power_Test(double b, double resulte)
     {
 
-        Assert.That(Calculator.Power(a, b), Is.EqualTo(resulte));
+        Assert.That(Calculator.Power(b), Is.EqualTo(resulte));
     }
+
+
+    [TestCase(1,1)]
+    [TestCase(2,0.5)]
+    public void Divid_Test(double b, double resulte)
+    {
+        Assert.That(Calculator.Divide(b), Is.EqualTo(resulte));
+
+    }
+
+    public void Clear_Test()
+    {
+        Calculator.clear();
+        Assert.That(Calculator.Accumulator, Is.EqualTo(0));
+
+    }
+
 
 }

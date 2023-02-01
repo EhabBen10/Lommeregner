@@ -3,32 +3,45 @@ namespace LommeRegner
 {
 	public class Calculator
 	{
-		public Calculator()
+        public double Accumulator { get; private set; } = 2;
+        public Calculator()
 		{
 		}
 
-		public double Add(double a, double b)
+		public double Add(double b)
 		{
+            Accumulator = Accumulator + b;
 
-			return a + b;
+            return Accumulator;
 		}
 
-        public double Subtract(double a, double b)
+        public double Subtract(double b)
         {
-
-            return a - b;
+            Accumulator = Accumulator - b;
+            return Accumulator;
         }
 
-        public double Multiply(double a, double b)
+        public double Multiply(double b)
         {
-
-            return a * b;
+            Accumulator = Accumulator * b;
+            return Accumulator;
         }
 
-        public double Power(double a, double exp)
+        public double Power(double exp)
         {
+            Accumulator = Math.Pow(Accumulator, exp);
+            return Accumulator;
+        }
 
-            return Math.Pow(a,exp);
+        public double Divide(double b)
+        {
+            Accumulator = Accumulator / b;
+            return Accumulator ;
+        }
+
+        public void clear()
+        {
+            Accumulator = 0;
         }
 
     }

@@ -1,39 +1,30 @@
 ﻿<Properties StartupConfiguration="{0E8DE3BD-678F-44FC-BD32-76CFBF821F7B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.LommeRegner PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CalculatorTest/CalculatorUnitTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LommeRegner/Program.cs">
     <Files>
-      <File FileName="LommeRegner/Program.cs" Line="29" Column="1" />
-      <File FileName="LommeRegner/Calculator.cs" Line="16" Column="31" />
-      <File FileName="CalculatorTest/UnitTest1.cs" Line="28" Column="62" />
+      <File FileName="LommeRegner/Program.cs" Line="4" Column="1" />
+      <File FileName="LommeRegner/Calculator.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LommeRegner" expanded="True">
-            <Node name="CalculatorTest" expanded="True">
-              <Node name="CalculatorUnitTests.cs" selected="True" />
-            </Node>
+            <Node name="CalculatorTest" expanded="True" />
             <Node name="LommeRegner" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="LommeRegner" expanded="True" selected="True">
-            <Node name="CalculatorTest" expanded="True">
-              <Node name="CalculatorTest" expanded="True">
-                <Node name="CalculatorUnitTests" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="LommeRegner" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.LommeRegner PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
