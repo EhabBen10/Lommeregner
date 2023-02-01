@@ -1,0 +1,15 @@
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/bin/Debug/net7.0/LommeRegner
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/bin/Debug/net7.0/LommeRegner.deps.json
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/bin/Debug/net7.0/LommeRegner.runtimeconfig.json
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/bin/Debug/net7.0/LommeRegner.dll
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/bin/Debug/net7.0/LommeRegner.pdb
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.csproj.AssemblyReference.cache
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.AssemblyInfoInputs.cache
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.AssemblyInfo.cs
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.csproj.CoreCompileInputs.cache
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.dll
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/refint/LommeRegner.dll
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.pdb
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/LommeRegner.genruntimeconfig.cache
+/Users/ehabbasha/Desktop/School/4. semester/SWT/LommeRegner/LommeRegner/obj/Debug/net7.0/ref/LommeRegner.dll
