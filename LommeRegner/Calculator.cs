@@ -3,7 +3,7 @@ namespace LommeRegner
 {
 	public class Calculator
 	{
-        public double Accumulator { get; private set; } = 2;
+        public double Accumulator { get; private set; } = 1;
         public Calculator()
 		{
 		}
